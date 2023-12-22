@@ -48,5 +48,8 @@
 .tmp_versions/
 modules.order
 Module.symvers
+
+# Mac DS file
+.DS_Store
 Mkfile.old
 dkms.conf
