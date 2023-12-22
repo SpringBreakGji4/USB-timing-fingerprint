@@ -1,5 +1,6 @@
 # USB-timing-fingerprint
-
+This USB timing fingerprint authenticator is for Linux
+To create timing fingerprint, we need to issue a series of read operations to the device and precisely record the device’s response latency.
 ## Build
 ### Prerequisites
 Install usb package
@@ -26,7 +27,7 @@ sudo modprobe usbmon
 ```
 
 ### Build Artifacts
-To run the analyzer
+To run the authenticator
 ```
 bash run.sh
 ```
