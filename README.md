@@ -1,5 +1,6 @@
 # USB-timing-fingerprint
-This USB timing fingerprint authenticator is for Linux
+This USB timing fingerprint authenticator is for Linux. 
+## Introduction
 To create timing fingerprint, we need to issue a series of read operations to the device and precisely record the device’s response latency.
 ## Build
 ### Prerequisites
